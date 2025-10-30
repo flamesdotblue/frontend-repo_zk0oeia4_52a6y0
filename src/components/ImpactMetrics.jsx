@@ -1,4 +1,4 @@
-import { Leaf, Footprints, Recycle, CheckCircle2 } from "lucide-react";
+import { Leaf, Footprints, Recycle, Users } from "lucide-react";
 
 const Stat = ({ icon: Icon, label, value, sub }) => (
   <div className="rounded-2xl border border-neutral-200 bg-white p-6 shadow-sm">
@@ -19,24 +19,20 @@ export default function ImpactMetrics() {
   return (
     <section id="impact" className="py-16 bg-gradient-to-b from-white to-emerald-50/40">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="md:flex items-end justify-between mb-8">
-          <div>
-            <h2 className="text-3xl font-bold tracking-tight">Transparent impact you can track</h2>
-            <p className="mt-2 text-neutral-600 max-w-2xl">
-              We quantify our footprint across materials, manufacturing, and logistics — and share the numbers.
-            </p>
-          </div>
-          <div className="mt-4 md:mt-0 flex items-center gap-2 text-sm text-emerald-800 bg-emerald-100 px-3 py-1 rounded-full">
-            <CheckCircle2 className="h-4 w-4" /> Third-party verified data
-          </div>
+        <div className="text-center max-w-2xl mx-auto mb-8">
+          <p className="text-sm font-medium tracking-wide text-emerald-700 uppercase">Our Impact in Numbers</p>
+          <h2 className="mt-2 text-3xl font-bold tracking-tight">Making a Real Difference</h2>
+          <p className="mt-2 text-neutral-600">We measure our success by the positive impact we create for our customers and the planet.</p>
         </div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          <Stat icon={Leaf} value="100+ tons" label="CO₂ avoided" sub="Target for early launch phase" />
-          <Stat icon={Footprints} value=">80%" label="Customer satisfaction" sub="Consistently above our goal" />
-          <Stat icon={Recycle} value="<5%" label="Return rate" sub="Quality that stands the test of time" />
-          <Stat icon={Leaf} value="25+" label="Products curated" sub="Premium, eco-conscious essentials" />
+          <Stat icon={Recycle} value="25+" label="Eco-Friendly Products" />
+          <Stat icon={Leaf} value="125+ tons" label="CO₂ Reduced" />
+          <Stat icon={Users} value="189+" label="Satisfied Customers" />
+          <Stat icon={Footprints} value=">80%" label="Customer Satisfaction" sub="Consistently above our goal" />
         </div>
+
+        <p className="mt-8 text-center text-neutral-700">Join thousands of eco-conscious customers who trust Zygreen for sustainable living solutions.</p>
       </div>
     </section>
   );

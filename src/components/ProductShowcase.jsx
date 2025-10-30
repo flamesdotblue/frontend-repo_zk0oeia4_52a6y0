@@ -86,9 +86,9 @@ export default function ProductShowcase() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="md:flex items-end justify-between mb-8">
           <div>
-            <h2 className="text-3xl font-bold tracking-tight">A curated collection of sustainable essentials</h2>
+            <h2 className="text-3xl font-bold tracking-tight">Join the Sustainable Living Movement</h2>
             <p className="mt-2 text-neutral-600 max-w-2xl">
-              25+ products crafted with recycled, renewable, and responsibly sourced materials.
+              Discover how our eco-friendly products can help you reduce your environmental footprint without compromising on quality or style.
             </p>
           </div>
           <a href="#" className="mt-4 md:mt-0 inline-flex items-center rounded-md border border-neutral-300 px-4 py-2 text-sm font-medium hover:bg-neutral-50">

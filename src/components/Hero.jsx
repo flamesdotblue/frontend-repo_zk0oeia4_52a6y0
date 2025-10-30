@@ -1,4 +1,4 @@
-import { ArrowRight, ShieldCheck, Recycle, Sparkles } from "lucide-react";
+import { ArrowRight, CheckCircle2 } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -7,15 +7,11 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-20">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div>
-            <div className="inline-flex items-center gap-2 rounded-full bg-emerald-100 text-emerald-800 px-3 py-1 text-xs font-medium mb-4">
-              <Sparkles className="h-3.5 w-3.5" />
-              Design-driven sustainability
-            </div>
-            <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight leading-tight">
-              Premium eco-friendly products that put planet and design first
-            </h1>
+            <p className="text-sm font-medium tracking-wide text-emerald-700 uppercase">Eco-Conscious Living</p>
+            <h1 className="mt-2 text-4xl sm:text-5xl font-extrabold tracking-tight leading-tight">ZYGREEN</h1>
+            <h2 className="mt-2 text-2xl sm:text-3xl font-semibold text-neutral-900">Sustainable Innovation for a Better Tomorrow</h2>
             <p className="mt-4 text-neutral-600 text-lg">
-              Zygreen curates sustainable essentials crafted with responsible materials and ethical production — without compromising on performance or aesthetics.
+              Discover premium, earth-friendly products that combine cutting-edge design with environmental responsibility. Join us in creating a sustainable future without compromising on style or performance.
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-3">
@@ -23,20 +19,23 @@ export default function Hero() {
                 href="#products"
                 className="inline-flex items-center justify-center rounded-md bg-emerald-600 px-5 py-3 text-white font-medium shadow-sm hover:bg-emerald-700 transition-colors"
               >
-                Explore the collection
+                Explore products
                 <ArrowRight className="ml-2 h-4 w-4" />
               </a>
               <a
                 href="#impact"
                 className="inline-flex items-center justify-center rounded-md border border-neutral-300 px-5 py-3 font-medium text-neutral-800 hover:bg-neutral-50"
               >
-                See our impact
+                View impact
               </a>
             </div>
 
-            <div className="mt-6 flex flex-wrap items-center gap-4 text-sm text-neutral-600">
-              <div className="flex items-center gap-2"><ShieldCheck className="h-4 w-4 text-emerald-700" /> Fair-labor suppliers</div>
-              <div className="flex items-center gap-2"><Recycle className="h-4 w-4 text-emerald-700" /> Recycled & renewable materials</div>
+            <p className="mt-6 text-sm text-neutral-500">Every choice matters in our journey towards a greener future.</p>
+
+            <div className="mt-4 flex flex-wrap items-center gap-3 text-sm text-emerald-900">
+              <span className="inline-flex items-center gap-2 rounded-full bg-emerald-100 px-3 py-1"><CheckCircle2 className="h-4 w-4" /> Eco-Friendly</span>
+              <span className="inline-flex items-center gap-2 rounded-full bg-emerald-100 px-3 py-1"><CheckCircle2 className="h-4 w-4" /> Premium Quality</span>
+              <span className="inline-flex items-center gap-2 rounded-full bg-emerald-100 px-3 py-1"><CheckCircle2 className="h-4 w-4" /> Sustainable</span>
             </div>
           </div>
 
@@ -51,7 +50,7 @@ export default function Hero() {
               />
               <div className="p-6">
                 <p className="text-neutral-700">
-                  Thoughtfully designed, rigorously tested, and made to last — for you and the planet.
+                  Join thousands of eco-conscious customers who trust Zygreen for sustainable living solutions.
                 </p>
               </div>
             </div>

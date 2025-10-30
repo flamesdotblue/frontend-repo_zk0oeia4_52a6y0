@@ -17,8 +17,8 @@ export default function Navbar() {
 
           <nav className="hidden md:flex items-center gap-8 text-sm text-neutral-700">
             <a href="#products" className="hover:text-emerald-700 transition-colors">Products</a>
+            <a href="#commitment" className="hover:text-emerald-700 transition-colors">Commitment</a>
             <a href="#impact" className="hover:text-emerald-700 transition-colors">Impact</a>
-            <a href="#ethos" className="hover:text-emerald-700 transition-colors">Ethos</a>
           </nav>
 
           <div className="flex items-center gap-3">
@@ -36,8 +36,8 @@ export default function Navbar() {
           <div className="md:hidden pb-4 animate-in fade-in slide-in-from-top-2">
             <nav className="grid gap-2 text-sm">
               <a href="#products" className="rounded-md px-3 py-2 hover:bg-neutral-100">Products</a>
+              <a href="#commitment" className="rounded-md px-3 py-2 hover:bg-neutral-100">Commitment</a>
               <a href="#impact" className="rounded-md px-3 py-2 hover:bg-neutral-100">Impact</a>
-              <a href="#ethos" className="rounded-md px-3 py-2 hover:bg-neutral-100">Ethos</a>
             </nav>
           </div>
         )}
